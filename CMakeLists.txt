@@ -7,7 +7,7 @@ SimpleComment.cpp
 
 add_library (SimpleComment MODULE ${SOURCES})
 
-target_link_libraries(SimpleComment utils far)
+target_link_libraries(SimpleComment utils far2m)
 
 target_compile_definitions(SimpleComment PRIVATE -DWINPORT_DIRECT -DUNICODE -DFAR_DONT_USE_INTERNALS)
 
